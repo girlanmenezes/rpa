@@ -1,0 +1,27 @@
+tasks:
+  Run all tasks:
+    shell: python -m robot --report NONE --outputdir output --logtitle "Task log" tasks.robot
+
+  Run Example task:
+    robotTaskName: Exemplo Selenium Python
+
+  Run Example task Selenium:
+    robotTaskName: Exemplo Selenium robot
+
+condaConfigFile: conda.yaml
+
+environmentConfigs:
+  - environment_windows_amd64_freeze.yaml
+  - environment_linux_amd64_freeze.yaml
+  - environment_darwin_amd64_freeze.yaml
+  - conda.yaml
+
+artifactsDir: output  
+PATH:
+  - .
+PYTHONPATH:
+  - keywords
+  - resources
+  - libraries
+ignoreFiles:
+  - .gitignore

@@ -1,0 +1,11 @@
+# For more details on the format and content:
+# https://github.com/robocorp/rcc/blob/master/docs/recipes.md#what-is-in-condayaml
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.9.13               # https://pyreadiness.org/3.9/ 
+  - pip=22.1.2                  # https://pip.pypa.io/en/stable/news/
+  - pip:
+      - rpaframework==21.0.1    # https://rpaframework.org/releasenotes.html
