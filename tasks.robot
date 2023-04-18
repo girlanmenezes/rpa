@@ -7,10 +7,6 @@ Documentation       Template robot main suite.
 
 
 *** Tasks ***
-Exemplo Selenium Python
-    Example Python
-    Log    ${TODAY}
-
     
 Exemplo Selenium robot
     TRY
