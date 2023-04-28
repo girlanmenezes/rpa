@@ -12,8 +12,6 @@ Exemplo Selenium robot
     TRY
         Abrir Navegador
         Realiza cadastro
-        ${RES}    Formulario
-        Log    ${RES}
     EXCEPT
         Log    ERRO AO EXECUTAR   
     END
